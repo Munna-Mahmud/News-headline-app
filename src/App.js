@@ -1,4 +1,6 @@
 import React from "react";
+import Header from "./Components/Header";
+import { newsCatagory } from './News/index';
 
 class App extends React.Component {
   render() {
@@ -6,7 +8,7 @@ class App extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-sm-6 offset-md-3">
-            <h2>This is bbc news from munna</h2>
+           <Header catagory ={newsCatagory.sports}></Header>
           </div>
         </div>
       </div>
